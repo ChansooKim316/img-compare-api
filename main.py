@@ -9,7 +9,6 @@ from PIL import Image
 import urllib.request, imagehash
 
 
-
 '''
 DEBUG MODE
 
@@ -77,7 +76,7 @@ def index():
          # When the api key is not valid
          return '''
                <form action = "" method = "post">
-                  <h3 style="color:red;">Invalid api key. Please try again.</h3>
+                  <h3 style="color:red;">Invalid API key. Please try again.</h3>
                   <p>Username : user1</p>
                   <p>API Key : <input type = text name = api_key value='1234567890' /></p>
                   <p><input type = submit value = Login /></p>
@@ -87,6 +86,7 @@ def index():
    return '''
             <form action = "" method = "post">
                <h3>Please enter the API Key<h3>
+               <p>(key : 1234567890)</p>
                <p>Username : user1</p>
                <p>API Key : <input type = text name = api_key value='1234567890' /></p>
                <p><input type = submit value = Login /></p>
@@ -144,7 +144,7 @@ def compare():
 
    return '''
             <form action = "" method = "post">
-               <h3>Please enter URLs to compare<h3>
+               <h3>Please enter the URLs to compare<h3>
                <p>URL 1 : <input type=text name=url1 value={} size="50"/></p>
                <p>URL 2 : <input type=text name=url2 value={} size="50"/></p>
                <p><input type=submit value=Submit /></p>
