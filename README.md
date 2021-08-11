@@ -6,19 +6,20 @@
 
 #### < API key authorization >
 
-![](./usage/auth.png)
+<img src="./usage/auth.PNG" width="200">
 
 #### < Invalid API key >
 
-![](./usage/invalid.png)
+<img src="./usage/invalid.PNG" width="300">
 
 #### < Image URL inputs >
 
-![](./usage/compare.png)
+<img src="./usage/compare.PNG" width="300">
 
 #### < Showing result >
 
-![](./usage/result.png)
+<img src="./usage/result.PNG" width="200">
+
 
 #### ▶  Packages to install
 
